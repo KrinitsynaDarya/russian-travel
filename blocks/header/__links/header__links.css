@@ -1,0 +1,8 @@
+.header__links {
+    margin: 0;
+    padding: 0;
+    display: grid; /* исправление 4, ссылки организованы в grid */
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    list-style: none;
+}
